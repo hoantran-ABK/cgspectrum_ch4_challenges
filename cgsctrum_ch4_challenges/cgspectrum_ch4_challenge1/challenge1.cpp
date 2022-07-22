@@ -23,10 +23,12 @@ int main() {
 	const int SIZE = 20;
 	int test[SIZE] = {};
 
+	// populate array with random integers 0-99
 	for (int i = 0; i < SIZE; i++) {
 		test[i] = rand() % 100;
 	}
 
+	// print out for checking correctness
 	for (int i = 0; i < SIZE; i++) {
 		std::cout << test[i] << " ";
 	}

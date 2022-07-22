@@ -4,6 +4,12 @@
 
 class Vehicle
 {
-	virtual void Drive() {}
+private:
+	int passenger_capacity;
+
+public:
+	virtual void Drive();
+	void setPassengerCapacity(int cap);
+	int getPassengerCapacity();
 };
 
