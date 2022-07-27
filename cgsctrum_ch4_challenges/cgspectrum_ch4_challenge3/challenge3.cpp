@@ -4,6 +4,7 @@
 #include "Boat.h"
 #include "Car.h"
 
+using namespace std;
 
 int main() {
 	Airplane ap = Airplane();

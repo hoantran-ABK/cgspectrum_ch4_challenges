@@ -1,5 +1,7 @@
 #include "Vehicle.h"
 
+using namespace std;
+
 void Vehicle::Drive()
 {
 }

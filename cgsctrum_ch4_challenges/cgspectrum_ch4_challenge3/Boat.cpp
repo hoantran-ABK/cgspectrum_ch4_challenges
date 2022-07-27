@@ -1,5 +1,7 @@
 #include "Boat.h"
 
+using namespace std;
+
 Boat::Boat()
 {
 	this->sails = 1;
@@ -8,5 +10,5 @@ Boat::Boat()
 
 void Boat::Drive()
 {
-	std::cout << "dududu.... SAAIIL!\n";
+	cout << "dududu.... SAAIIL!\n";
 }

@@ -1,5 +1,8 @@
 #pragma once
 #include "Vehicle.h"
+
+using namespace std;
+
 class Boat :
     public Vehicle
 {

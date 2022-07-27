@@ -1,5 +1,7 @@
 #include "Car.h"
 
+using namespace std;
+
 Car::Car()
 {
 	this->wheels = 4;
@@ -9,5 +11,5 @@ Car::Car()
 
 void Car::Drive()
 {
-	std::cout << "Vroom!Vroom!\n";
+	cout << "Vroom!Vroom!\n";
 }

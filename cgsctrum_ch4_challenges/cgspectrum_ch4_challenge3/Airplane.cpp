@@ -1,5 +1,7 @@
 #include "Airplane.h"
 
+using namespace std;
+
 Airplane::Airplane()
 {
 	this->wings = 2;
@@ -8,5 +10,5 @@ Airplane::Airplane()
 
 void Airplane::Drive()
 {
-	std::cout << "Fly!\n";
+	cout << "Fly!\n";
 }
